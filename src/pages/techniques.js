@@ -1,11 +1,13 @@
+import React from 'react';
 import Layout from '../components/Layout';
+import Techniques from '../components/Techniques';
 
-const Techniques = () => {
+const TechniquesPage = () => {
   return (
     <Layout>
-        <p>All the techniques</p>
+      <Techniques />
     </Layout>
   );
 };
 
-export default Techniques;
+export default TechniquesPage;

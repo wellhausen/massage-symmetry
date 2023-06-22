@@ -1,11 +1,13 @@
+import React from 'react';
 import Layout from '../components/Layout';
+import Testimonials from '../components/Testimonials';
 
-const Testimonials = () => {
+const TechniquesPage = () => {
   return (
     <Layout>
-        <p>All the testimonials</p>
+      <Testimonials />
     </Layout>
   );
 };
 
-export default Testimonials;
+export default TechniquesPage;

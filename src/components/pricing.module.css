@@ -1,0 +1,16 @@
+  /* Pricing */
+
+  .container {
+    text-align: center;
+  }
+
+  .pricingContainer {
+    text-align: center;
+    border: 1px solid red;
+  }
+  
+  .centeredButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }

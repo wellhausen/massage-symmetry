@@ -1,0 +1,24 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .technique {
+    margin-bottom: 10px;
+  }
+  
+  .techniqueName {
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .expanded {
+    color: blue;
+  }
+  
+  .explanation {
+    margin-top: 10px;
+  }
+  

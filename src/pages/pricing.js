@@ -1,12 +1,13 @@
-import Layout from '../components/Layout';
+import React from 'react';
+import Pricing from '../components/Pricing';
 
-const Pricing = () => {
+const PricingPage = () => {
   return (
-    <Layout>
-      <h1>Pricing Page</h1>
-        <p>Get info here. </p>
-    </Layout>
+    <div>
+      <Pricing />
+    </div>
   );
 };
 
-export default Pricing;
+export default PricingPage;
+

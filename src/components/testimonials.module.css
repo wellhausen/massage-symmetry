@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center; /* Center the heading horizontally */
+}
+
+.testimonials {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem;
+  width: 70%; /* Set the width of the testimonials row to 2/3 of the page */
+  justify-content: center; /* Center the testimonials horizontally */
+  align-items: center; /* Center the testimonials vertically */
+  flex-wrap: wrap; /* Allow testimonials to wrap to the next line */
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content vertically */
+  justify-content: flex-start; /* Align the content to the top */
+  flex: 0 0 calc(100% / 3 - 1rem);
+  padding: 1rem;
+  border: 1px solid lightgray;
+  margin-right: 1rem;
+  scroll-snap-align: start;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.testimonial.active {
+  opacity: 1;
+}
+
+.testimonialsRow {
+  display: flex;
+  width: fit-content;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensure the image stays within the rounded border */
+  margin-bottom: 1rem;
+}
+
+
+.content {
+  text-align: center;
+}
+
+.quote {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.title {
+  font-style: italic;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}

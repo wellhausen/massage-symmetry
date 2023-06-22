@@ -1,11 +1,11 @@
-import Layout from '../components/Layout';
+import React from 'react';
+import Booking from '../components/Booking';
 
 const BookingPage = () => {
   return (
-    <Layout>
-      <h1>Booking Page</h1>
-        <p>Book an appointment here.</p>
-    </Layout>
+    <div>
+      <Booking />
+    </div>
   );
 };
 
