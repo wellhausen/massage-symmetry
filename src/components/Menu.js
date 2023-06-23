@@ -59,6 +59,11 @@ const Menu = () => {
                   Testimonials
                 </Link>
               </li>
+              <li className={styles.mainMenuLink}>
+                <Link href="/contact" onClick={toggleMenu} className={styles.menuLink}>
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
