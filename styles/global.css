@@ -30,6 +30,10 @@
     border: 1px solid red;
   }
 
+  .ms-box-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
   .video-container {
     position: fixed;
     top: 0;
@@ -77,6 +81,24 @@
     margin-top: 1rem;
   }
 
-
+/* Centered content on homepage */
   
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 128, 0.6);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .content-box {
+    max-width: 800px;
+  }
+  
+  .content-text {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
   
